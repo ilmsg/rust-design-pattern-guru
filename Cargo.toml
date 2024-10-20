@@ -6,5 +6,12 @@ edition = "2021"
 [dependencies]
 
 [workspace]
-members = [ "singleton-lazy", "singleton-mutex","singleton-safe-singleton"]
+members = [ 
+    "factory-dialog-rendering", 
+    "factory-maze-game", 
+    "prototype-buildin-clone", 
+    "singleton-lazy", 
+    "singleton-mutex",
+    "singleton-safe-singleton",
+]
 
